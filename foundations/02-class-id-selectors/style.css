@@ -1,10 +1,21 @@
 /* styles */
 
-p {
+.one {
     background-color: rgb(245, 138, 165);
     font-family: Verdana, sans-serif;
 }
 
 .three {
     font-size: 24px;
+}
+
+#two {
+    color: rgb(0, 71, 224);
+    font-size: 36px;
+}
+
+#four {
+    background-color: rgb(179, 240, 150);
+    font-size: 24px;
+    font-weight: bold;
 }
