@@ -10,12 +10,9 @@ body {
   padding: 8px;
 }
 
-h1 {
-  margin: 0px;
-}
-
 .title {
   background: #e3f4ff;
+  margin-top: 0;
   margin-bottom: 8px;
   font-size: 16px;
   padding: 8px;
@@ -38,5 +35,5 @@ button {
   border: 1px solid #eee;
   display: block;
   padding: 8px 24px;
-  margin: auto;
+  margin: 0 auto;
 }
