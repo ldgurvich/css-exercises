@@ -21,7 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   /* new */
-  padding: 15px;
+  padding: 16px;
+  gap: 16px;
   display: flex;
 }
 
@@ -36,6 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* new */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -69,21 +72,15 @@ button.cancel {
 }
 
 /* new */
-.left {
-  margin-right: 15px;
-}
-
 .header {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.right-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .text {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
