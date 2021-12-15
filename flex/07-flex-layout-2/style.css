@@ -31,44 +31,26 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-}
-
-.container {
-  display: flex;
-  flex: 1;
-}
-
-.sidebar {
-  width: 300px;
-  padding: 16px;
-  flex: 0 0 auto;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  padding: 32px;
-}
-
-.card {
-  width: 300px;
-  padding: 16px;
 }
 
 .header {
   display: flex;
   align-items: center;
+  padding-left: 16px;
   font-size: 32px;
   font-weight: 900;
-  padding-left: 16px;
+  
 }
 
-.footer {
+.container {
+  flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.sidebar {
+  width: 300px;
+  flex: 0 0 auto;
+  padding: 16px;
 }
 
 ul {
@@ -77,12 +59,32 @@ ul {
   margin: 0;
 }
 
+li {
+  margin-bottom: 16px;
+}
+
 a {
   text-decoration: none;
   font-size: 24px;
   color: white;
 }
 
-li {
-  margin-bottom: 16px;
+/* I used gap instead of margin to put space between the cards */
+.content {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
+
+.card {
+  padding: 16px;
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
